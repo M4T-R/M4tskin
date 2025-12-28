@@ -3,7 +3,7 @@
     <addon
         id="program.m4tskin"
         name="M4Tskin"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="M4T">
 
         <extension point="xbmc.python.script" library="default.py" />
@@ -18,3 +18,4 @@
         </extension>
     </addon>
 </addons>
+
