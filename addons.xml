@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.m4t" name="M4T Repo" version="1.0.3" provider-name="M4T">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+
+    <extension point="xbmc.addon.repository">
+        <info>https://m4t-r.github.io/M4tskin/addons.xml</info>
+        <checksum>https://m4t-r.github.io/M4tskin/addons.xml.md5</checksum>
+        <datadir zip="true">https://m4t-r.github.io/M4tskin/zips/</datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Dépôt officiel M4T</summary>
+        <description lang="fr">Dépôt officiel M4T pour M4Tskin.</description>
+        <platform>all</platform>
+    </extension>
+</addon><addon id="program.m4tskin" name="M4Tskin" version="1.0.1" provider-name="M4T">
+
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Réappliquer mon setup Arctic Fuse 2</summary>
+    <description>Injecter / restaurer mon skin Arctic Fuse 2.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon></addons>
